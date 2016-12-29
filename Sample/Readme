@@ -1,0 +1,9 @@
+docker build -t <YOUR_USERNAME>/myfirstapp .    #Build
+docker run -p 8888:5000 --name myfirstapp YOUR_USERNAME/myfirstapp   #Run
+
+
+
+docker stop myfirstapp
+docker rm myfirstapp
+Or
+docker rm -f myfirstapp
